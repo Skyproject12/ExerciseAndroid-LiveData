@@ -17,41 +17,42 @@
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:7:9-43
+15        android:icon="@drawable/ic_android_black_24dp"
+15-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:7:9-55
 16        android:label="@string/app_name"
 16-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:9:9-54
+17        android:roundIcon="@drawable/ic_android_black_24dp"
+17-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:9:9-60
 18        android:supportsRtl="true"
 18-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.livedata.MainActivity" >
-20-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:12:9-18:20
-20-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:12:19-47
-21            <intent-filter>
-21-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:14:17-69
-22-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:16:17-77
-24-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27
-28        <provider
-28-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-29            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-29-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-30            android:authorities="com.example.livedata.lifecycle-process"
-30-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-31            android:exported="false"
-31-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-32            android:multiprocess="true" />
-32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-33    </application>
-34
-35</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.livedata.MainActivity" >
+21-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:12:19-47
+22            <intent-filter>
+22-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:13:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:14:17-69
+23-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:16:17-77
+25-->D:\AndroidJava\AndroidJetpack\LiveData\app\src\main\AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <provider
+29-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+30            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+30-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+31            android:authorities="com.example.livedata.lifecycle-process"
+31-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+32            android:exported="false"
+32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+33            android:multiprocess="true" />
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+34    </application>
+35
+36</manifest>
